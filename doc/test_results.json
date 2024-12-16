@@ -1,0 +1,134 @@
+[
+    {
+        "input": "What is your return policy?",
+        "expected_output": "Items can be returned within 30 days.",
+        "generated_response": "Our return policy allows for exchanges within 30 days of purchase and also provides the option to cancel orders before they are shipped.",
+        "similarity": 0.6601647734642029,
+        "bertscore": 0.8957561254501343,
+        "similarity_threshold": 0.8,
+        "bertscore_threshold": 0.8,
+        "response_time": null,
+        "result": "fail"
+    },
+    {
+        "input": "How can I track my order?",
+        "expected_output": "You can track your order by visiting our website or contacting support.",
+        "generated_response": "You can track your order by visiting our website.",
+        "similarity": 0.9382461905479431,
+        "bertscore": 0.9758531451225281,
+        "similarity_threshold": 0.8,
+        "bertscore_threshold": 0.8,
+        "response_time": null,
+        "result": "pass"
+    },
+    {
+        "input": "Do you offer international shipping?",
+        "expected_output": "Yes, we ship to most countries worldwide.",
+        "generated_response": "Yes, we ship to most countries worldwide.",
+        "similarity": 1.0,
+        "bertscore": 1.0,
+        "similarity_threshold": 0.8,
+        "bertscore_threshold": 0.8,
+        "response_time": null,
+        "result": "pass"
+    },
+    {
+        "input": "What is your refund process?",
+        "expected_output": "Refunds are processed within 5-7 business days after the return is received.",
+        "generated_response": "Unfortunately, I don't know the specific details of your refund process. However, based on the context provided, it seems that you may be able to track and manage your orders through their website or by contacting customer support. If you have any issues with your order, you can also cancel it before it is shipped. For refunds, it's not explicitly stated in this information, but it does suggest that you should contact customer support for assistance with returns and exchanges within 30 days of purchase.",
+        "similarity": 0.6629285216331482,
+        "bertscore": 0.854929506778717,
+        "similarity_threshold": 0.8,
+        "bertscore_threshold": 0.8,
+        "response_time": null,
+        "result": "fail"
+    },
+    {
+        "input": "How do I reset my account password?",
+        "expected_output": "Click 'Forgot Password' on the login page to reset your password.",
+        "generated_response": "To reset your account password, click 'Forgot Password' on the login page.",
+        "similarity": 0.9387902021408081,
+        "bertscore": 0.9561634659767151,
+        "similarity_threshold": 0.8,
+        "bertscore_threshold": 0.8,
+        "response_time": null,
+        "result": "pass"
+    },
+    {
+        "input": "Can I exchange an item?",
+        "expected_output": "Yes, exchanges are allowed within 30 days of purchase.",
+        "generated_response": "Yes. Exchanges are allowed within 30 days of purchase.",
+        "similarity": 0.9875155687332153,
+        "bertscore": 0.9247629046440125,
+        "similarity_threshold": 0.8,
+        "bertscore_threshold": 0.8,
+        "response_time": null,
+        "result": "pass"
+    },
+    {
+        "input": "How can I cancel my order?",
+        "expected_output": "You can cancel your order by contacting customer support before it is shipped.",
+        "generated_response": "To cancel your order, you should contact our customer support before it is shipped.",
+        "similarity": 0.9682848453521729,
+        "bertscore": 0.9589676260948181,
+        "similarity_threshold": 0.8,
+        "bertscore_threshold": 0.8,
+        "response_time": null,
+        "result": "pass"
+    },
+    {
+        "input": "Hi",
+        "expected_output": "Response time test only",
+        "generated_response": "I don't know. The context you provided only mentions general information about tracking orders, returns, and shipping, but doesn't ask a specific question that can be answered with a direct response.",
+        "similarity": null,
+        "bertscore": null,
+        "similarity_threshold": null,
+        "bertscore_threshold": null,
+        "response_time": 2.0164730548858643,
+        "result": "fail"
+    },
+    {
+        "input": "Hello",
+        "expected_output": "Response time test only",
+        "generated_response": "I'm happy to try and help! However, I notice that you're providing context for a product or service, but not specifying what the question is. Could you please provide more information or clarify what question you'd like me to answer based on the provided context?",
+        "similarity": null,
+        "bertscore": null,
+        "similarity_threshold": null,
+        "bertscore_threshold": null,
+        "response_time": 1.9366061687469482,
+        "result": "pass"
+    },
+    {
+        "input": "Bye",
+        "expected_output": "Response time test only",
+        "generated_response": "I don't know.",
+        "similarity": null,
+        "bertscore": null,
+        "similarity_threshold": null,
+        "bertscore_threshold": null,
+        "response_time": 0.5922198295593262,
+        "result": "pass"
+    },
+    {
+        "input": "Summarize the history of the Roman Empire in 200 words.",
+        "expected_output": "Response time test only",
+        "generated_response": "I don't know how to summarize the history of the Roman Empire in 200 words. The provided context only appears to be related to a company's policies and doesn't provide any information about the Roman Empire's history. If you'd like, I can try to find more general information about the Roman Empire, but it would require additional research outside of the provided context.",
+        "similarity": null,
+        "bertscore": null,
+        "similarity_threshold": null,
+        "bertscore_threshold": null,
+        "response_time": 2.6544010639190674,
+        "result": "fail"
+    },
+    {
+        "input": "Explain quantum mechanics and its applications in modern technology.",
+        "expected_output": "Response time test only",
+        "generated_response": "I don't know how to explain quantum mechanics and its applications in modern technology. The provided context seems to be related to customer support and returns, rather than physics or science. If you'd like information on quantum mechanics and its applications, I'd be happy to provide a general overview or point you in the direction of resources that can help.",
+        "similarity": null,
+        "bertscore": null,
+        "similarity_threshold": null,
+        "bertscore_threshold": null,
+        "response_time": 2.4088027477264404,
+        "result": "fail"
+    }
+]
