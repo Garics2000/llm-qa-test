@@ -115,9 +115,6 @@ TestCase("Your query", "Expected response", "knowledge_key")
 2. Add corresponding knowledge base entries:
 ```python
 KNOWLEDGE_BASE = {
-    "knowledge_key": {
-        "expected_response": "Expected response text",
-        "required_keywords": ["key", "words"]
-    }
+    "topic": "golden_answer"
 }
 ```
